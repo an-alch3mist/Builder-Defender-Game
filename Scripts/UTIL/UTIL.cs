@@ -168,7 +168,7 @@ public static class U
 				double scaled = (double)value / threshold;
 				double truncated = Math.Floor(scaled * 10) / 10;  // one decimal, always down :contentReference[oaicite:7]{index=7}
 
-				// If the number part is 20 or more, drop decimals
+				// If the number part is 10 or more, drop decimals
 				if (truncated >= 10)
 					return $"{(int)truncated}{scales[threshold]}";
 
