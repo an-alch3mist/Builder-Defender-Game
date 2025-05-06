@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c98b89310738ed64c9ab2d517fbd2620, type: 3}
+  m_Name: StoneHarvester
+  m_EditorClassIdentifier: 
+  _name: StoneHarvester
+  _sprite: {fileID: 21300000, guid: 2263e91ebcd2a254dab5f4caccb4a7af, type: 3}
+  _prefab: {fileID: 824683515485475626, guid: 5147b2c95f4bfea4b9c8875743ed1fa7, type: 3}
+  _resource_generator_data:
+    _time_interval: 2
+    _SO_ResourceType: {fileID: 11400000, guid: d13e781be0914ca47a27b40346728a7e, type: 2}
+    _radius_reach: 5
+  _resource_cost_list:
+  - _SO_ResourceType: {fileID: 11400000, guid: e607b70e3ca17ec41b9e24df36aa421f, type: 2}
+    _amount: 5
